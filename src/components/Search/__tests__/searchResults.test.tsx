@@ -1,4 +1,4 @@
-import { act, fireEvent, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { SearchResults } from "..";
 import { SearchContext } from "@/contexts/search";
 import { moviesMock } from "@/__mocks__/moviesMock";

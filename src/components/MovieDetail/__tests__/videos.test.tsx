@@ -1,5 +1,5 @@
 import { MovieDetailContext } from "@/contexts/movieDetail";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Videos from "../Videos";
 
 describe("Videos", () => {

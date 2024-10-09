@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Page from "../page";
 import { moviesServices } from "@/services";
 import { AppRouterContextProviderMock } from "@/__mocks__/AppRouterMock";

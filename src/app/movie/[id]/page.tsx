@@ -8,7 +8,6 @@ import {
 } from "@/components/MovieDetail";
 import MovieDetailProvider from "@/contexts/movieDetail";
 import { moviesServices } from "@/services";
-import { redirect } from "next/navigation";
 import React from "react";
 
 const MovieDetailPage = async ({ params }: { params: { id: string } }) => {

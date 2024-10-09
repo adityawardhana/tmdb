@@ -1,6 +1,5 @@
 "use client";
 import { useMovieDetailContext } from "@/contexts/movieDetail";
-import { URL_IMAGE } from "@/utils/constants";
 import React, { useMemo } from "react";
 import Avatar from "../Avatar";
 

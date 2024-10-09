@@ -55,6 +55,7 @@ const MoviesCard: FC<Props> = ({ data }) => {
           <img
             className="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
             src={`${URL_IMAGE}${data.poster_path}`}
+            alt={`${URL_IMAGE}${data.poster_path}`}
           />
         </div>
       </div>

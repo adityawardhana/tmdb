@@ -2,12 +2,10 @@
 import { useMovieDetailContext } from "@/contexts/movieDetail";
 import { formatDuration, formatYear } from "@/utils/time";
 import React from "react";
-import Rating from "../Rating";
 import {
   IoIosChatbubbles,
   IoIosStar,
   IoIosStats,
-  IoIosTrendingUp,
 } from "react-icons/io";
 
 const Overview = () => {

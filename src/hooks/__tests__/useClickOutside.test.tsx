@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import useClickOutside from "../useClickOutside";
-import { act, useRef } from "react";
+import { useRef } from "react";
 
 describe("useClickOutside hook", () => {
   const evts: any = {};
