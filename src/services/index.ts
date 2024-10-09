@@ -1,0 +1,1 @@
+export * as moviesServices from './movies';
