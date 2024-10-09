@@ -1,0 +1,2438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render page movie list with server components 1`] = `
+<div>
+  <main
+    class="flex flex-col gap-8 row-start-2 items-start"
+  >
+    <div
+      class="flex overflow-x-auto gap-2 w-full no-scrollbar p-4"
+    >
+      <button
+        class="flex-shrink-0 text-rose-700 hover:text-white border border-rose-600 hover:bg-rose-700 focus:ring-4 focus:outline-none focus:ring-rose-300 rounded-full text-base px-5 py-2.5 text-center border-rose-500 text-rose-500 hover:text-white hover:bg-rose-500 bg-neutral-900 focus:ring-rose-800"
+        type="button"
+      >
+        All
+      </button>
+      <button
+        class="flex-shrink-0 text-neutral-400 border border-neutral-900 bg-neutral-900 hover:border-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+        type="button"
+      >
+        Popular
+      </button>
+      <button
+        class="flex-shrink-0 text-neutral-400 border border-neutral-900 bg-neutral-900 hover:border-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+        type="button"
+      >
+        Top Rated
+      </button>
+      <button
+        class="flex-shrink-0 text-neutral-400 border border-neutral-900 bg-neutral-900 hover:border-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+        type="button"
+      >
+        Now Playing
+      </button>
+      <button
+        class="flex-shrink-0 text-neutral-400 border border-neutral-900 bg-neutral-900 hover:border-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+        type="button"
+      >
+        Upcoming
+      </button>
+    </div>
+    <section
+      class="flex flex-col justify-center"
+    >
+      <div
+        class="text-white p-4 md:p-8 w-full grid grid-cols-2 md:grid-cols-5 gap-4 relative"
+      >
+        <a
+          data-testid="moviesCard"
+          href="/movie/726139"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Project Silence
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.85
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          116
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        Due to sudden deteriorating weather conditions, visibility on the Airport Bridge is severely impaired, leaving people stranded and at risk of the bridge collapsing due to a series of chain collisions and explosions. Amidst the chaos, the canine subjects "Echo" from the military experiment "Project Silence," who were being transported in secret, break free, and all human survivors become targets of relentless attacks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/fttoFfKikQMwIoV3UVvlCvBhbUw.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1114513"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Speak No Evil
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.34
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          547
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        When an American family is invited to spend the weekend at the idyllic country estate of a charming British family they befriended on vacation, what begins as a dream holiday soon warps into a snarled psychological nightmare.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/fDtkrO2OAF8LKQTdzYmu1Y7lCLB.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/933260"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        The Substance
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.30
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          241
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/957452"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        The Crow
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            5.54
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          507
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        Soulmates Eric and Shelly are brutally murdered when the demons of her dark past catch up with them. Given the chance to save his true love by sacrificing himself, Eric sets out to seek merciless revenge on their killers, traversing the worlds of the living and the dead to put the wrong things right.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/877817"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Wolfs
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.60
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          396
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        Hired to cover up a high-profile crime, a fixer soon finds his night spiralling out of control when he's forced to work with an unexpected counterpart.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/vOX1Zng472PC2KnS0B9nRfM8aaZ.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/889737"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Joker: Folie à Deux
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            5.77
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          530
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1184918"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        The Wild Robot
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            8.00
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          123
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1215162"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Kill 'em All 2
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.02
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          74
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        Phillip and Suzanne are retired from the spy game, living peacefully off the grid. That's until their whereabouts are discovered by Vlad, the vengeful brother of their target from the first film.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/hgA5hN3NjNNSTXYOmAI6KNKOzbp.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/917496"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Beetlejuice Beetlejuice
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.10
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          870
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Betelgeuse, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Afterlife.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/kKgQzkUCnQmeTPkyIwHly2t6ZFI.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1079091"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        It Ends with Us
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.05
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          708
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended, and she realizes she must learn to rely on her own strength to make an impossible choice for her future.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/cSMdFWmajaX4oUMLx7HEDI84GkP.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/475557"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Joker
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            8.15
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          25,346
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2019
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1337309"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Bangkok Breaking: Heaven and Hell
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.79
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          19
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        When a dedicated rescue worker inadvertently gets caught up in the kidnapping plot of a mogul's tween daughter, he must save her from the clutches of rival gangs hunting them down with unpredictable dangers around every corner.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/6VeDn4oIeUK4XwjWGWMb6qvMImQ.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1147710"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Hijack 1971
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.00
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          51
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        Pilots Tae-in and Gyu-sik are set to fly to Gimpo. Under the guidance of flight attendant Ok-soon, passengers are busy boarding. However, shortly after takeoff, a homemade bomb explodes, turning the cabin into chaos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/68jNkFi61MQjrJEqj2up5wZ4w5R.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1125510"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        The Platform 2
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            5.72
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          335
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        After a mysterious leader imposes his law in a brutal system of vertical cells, a new arrival battles against a dubious food distribution method.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/izuzUb0sDokqp9o8utVfsrSJuy5.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/949484"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Hounds of War
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.43
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          78
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        After a mission goes wrong, only one of a group of mercenaries is left alive to avenge his fallen brothers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/lRBT73EWsiQPuqK3YS3BnBW0Zwi.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/698687"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Transformers One
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.40
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          121
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/qbkAqmmEIZfrCO8ZQAuIuVMlWoV.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1034541"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Terrifier 3
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.70
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          5
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        Five years after surviving Art the Clown's Halloween massacre, Sienna and her brother are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/7NDHoebflLwL1CcgLJ9wZbbDrmV.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/945961"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Alien: Romulus
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            7.05
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          1,125
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/1186947"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Outlaw
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.01
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          76
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        At the age of nine, Rebeca is sold by her grandmother to the bookseller who ran Rocinha. Disputed by bicheiros and drug dealers, the community is going through changes in power. Rebeca becomes the wife of the chief drug dealer and, with the death of her partner, his successor. The electrifying trajectory of crime, violence, drugs and love of a female drug kingpin in Rocinha, Rio de Janeiro in the 1980s.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/rGS8SzheANVQicNba0GCE6w1XHb.jpg"
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          data-testid="moviesCard"
+          href="/movie/807339"
+        >
+          <div
+            class="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto"
+          >
+            <div
+              class="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white"
+            >
+              <div
+                class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"
+              />
+              <div
+                class="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"
+                data-lity=""
+              >
+                <div
+                  class="align-self-end w-full"
+                >
+                  <div
+                    class="h-24 md:h-36"
+                  />
+                  <div
+                    class="space-y-2 md:space-y-6 "
+                  >
+                    <div
+                      class="flex flex-col space-y-2 inner"
+                    >
+                      <h3
+                        class="text-xl text-white"
+                        data-unsp-sanitized="clean"
+                      >
+                        Apartment 7A
+                      </h3>
+                      <div
+                        class="flex items-center gap-2"
+                        data-testid="rating"
+                      >
+                        <div
+                          class="flex items-start"
+                        >
+                          <svg
+                            class="w-4 h-4 text-yellow-300 me-1"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+                            />
+                          </svg>
+                          <p
+                            class="ms-2 text-sm font-bold text-gray-900 dark:text-white"
+                          >
+                            6.01
+                          </p>
+                        </div>
+                        <div
+                          class="text-xs text-gray-900 underline hover:no-underline dark:text-white"
+                        >
+                          (
+                          90
+                           reviews)
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-row justify-between datos"
+                    >
+                      <div
+                        class="flex flex-col datos_col"
+                      >
+                        <div
+                          class="text-xs text-neutral-400 mb-2"
+                        >
+                          Release Year
+                        </div>
+                        <div
+                          class="release"
+                        >
+                          2024
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col overview"
+                    >
+                      <div
+                        class="flex flex-col"
+                      />
+                      <div
+                        class="text-xs text-neutral-400 mb-2"
+                      >
+                        Overview:
+                      </div>
+                      <p
+                        class="text-xs text-neutral-100 mb-6 line-clamp-2"
+                      >
+                        A struggling young dancer finds herself drawn in by dark forces when a peculiar, well-connected older couple promise her a shot at fame.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
+                src="https://image.tmdb.org/t/p/original/oyjEPno8omeDYVNqUZS2RiEpuRC.jpg"
+              />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="flex justify-center overflow-x-auto gap-2 w-full no-scrollbar p-4 pb-24"
+        data-testid="pagination"
+      >
+        <button
+          class="flex-shrink-0 border border-neutral-900 hover:border-neutral-700 bg-neutral-900 text-white focus:ring-4 focus:outline-none focus:ring-neutral-800 rounded-full text-base px-5 py-2.5 text-center "
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"
+            />
+          </svg>
+        </button>
+        <button
+          class="flex-shrink-0 border border-rose-500 text-rose-500 hover:text-white bg-neutral-900 hover:bg-rose-700 focus:ring-rose-800 focus:ring-4 focus:outline-none rounded-full text-base px-5 py-2.5 text-center"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="flex-shrink-0 border border-neutral-900 hover:border-neutral-700 bg-neutral-900 text-white focus:ring-4 focus:outline-none focus:ring-neutral-800 rounded-full text-base px-5 py-2.5 text-center "
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="flex-shrink-0 border border-neutral-900 hover:border-neutral-700 bg-neutral-900 text-white focus:ring-4 focus:outline-none focus:ring-neutral-800 rounded-full text-base px-5 py-2.5 text-center "
+          type="button"
+        >
+          ...
+        </button>
+        <button
+          class="flex-shrink-0 border border-neutral-900 hover:border-neutral-700 bg-neutral-900 text-white focus:ring-4 focus:outline-none focus:ring-neutral-800 rounded-full text-base px-5 py-2.5 text-center "
+          type="button"
+        >
+          10
+        </button>
+        <button
+          class="flex-shrink-0 border border-neutral-900 hover:border-neutral-700 bg-neutral-900 text-white focus:ring-4 focus:outline-none focus:ring-neutral-800 rounded-full text-base px-5 py-2.5 text-center "
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+  </main>
+</div>
+`;

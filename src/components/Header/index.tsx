@@ -22,7 +22,7 @@ const Header = () => {
           <Menu pathname={pathname} />
         </div>
         <SearchBar />
-        <button onClick={() => setOpenMobile(true)} className="md:hidden">
+        <button onClick={() => setOpenMobile(true)} className="md:hidden" data-testid="searchButtonMobile">
           <CiSearch className="size-5" />
         </button>
       </div>

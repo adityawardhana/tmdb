@@ -12,10 +12,6 @@ import { redirect } from "next/navigation";
 import React from "react";
 
 const MovieDetailPage = async ({ params }: { params: { id: string } }) => {
-  console.log("id", params.id);
-  if (!params.id) {
-    return redirect("/");
-  }
   const detail = await moviesServices.getMovieDetail(Number(params.id));
   const images = await moviesServices.getMovieImages(Number(params.id));
   const videos = await moviesServices.getMovieVideos(Number(params.id));

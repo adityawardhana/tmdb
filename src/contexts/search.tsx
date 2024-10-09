@@ -2,6 +2,7 @@ import useClickOutside from "@/hooks/useClickOutside";
 import useFetch from "@/hooks/useFetch";
 import { moviesServices } from "@/services";
 import { IMovie } from "@/types";
+import { noop } from "@/utils/utils";
 import React, {
   createContext,
   FC,
@@ -23,12 +24,12 @@ interface ISearchContext {
   onClose: () => void;
 }
 
-const SearchContext = createContext<ISearchContext>({
+export const SearchContext = createContext<ISearchContext>({
   query: "",
   loading: false,
   results: [],
-  setQuery: () => {},
-  onClose: () => {},
+  setQuery: noop,
+  onClose: noop,
 });
 
 const SearchProvider: FC<Props> = ({ children }) => {

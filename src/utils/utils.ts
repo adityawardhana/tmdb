@@ -1,0 +1,1 @@
+export const noop = () => {} // make sure default function can be tested

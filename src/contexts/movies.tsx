@@ -7,6 +7,7 @@ import {
   GenericResponseList,
   IMovie,
 } from "@/types";
+import { noop } from "@/utils/utils";
 import { usePathname, useRouter } from "next/navigation";
 import React, { createContext, FC, useContext } from "react";
 
@@ -21,8 +22,8 @@ interface IMoviesContext {
   filter: TFilterKey;
   page: number;
 }
-const MoviesContext = createContext<IMoviesContext>({
-  onParamsChange: () => {},
+export const MoviesContext = createContext<IMoviesContext>({
+  onParamsChange: noop,
   filter: "",
   page: 1,
 });

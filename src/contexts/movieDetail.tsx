@@ -15,7 +15,7 @@ interface IMovieDetailContext {
   videos?: any;
   credits?: any;
 }
-const MovieDetailContext = createContext<IMovieDetailContext>({});
+export const MovieDetailContext = createContext<IMovieDetailContext>({});
 const MovieDetailProvider: FC<Props> = ({ children, initialData }) => {
   const [data] = useState(initialData);
   return (

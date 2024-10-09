@@ -1,6 +1,5 @@
 import { IMovie } from "@/types";
 import { URL_IMAGE } from "@/utils/constants";
-import dayjs from "dayjs";
 import React, { FC } from "react";
 import Rating from "../Rating";
 import { formatYear } from "@/utils/time";
@@ -11,7 +10,7 @@ interface Props {
 
 const MoviesCard: FC<Props> = ({ data }) => {
   return (
-    <a href={`/movie/${data.id}`}>
+    <a href={`/movie/${data.id}`} data-testid="moviesCard">
       <div className="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto">
         <div className="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white">
           <div className="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"></div>

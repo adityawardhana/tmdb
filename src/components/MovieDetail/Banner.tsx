@@ -57,7 +57,7 @@ const Banner = () => {
           >
             <div className="py-3 flex lg:flex-col items-center gap-4 text-sm lg:text-base">
               <FaRegImages className="text-secondary size-6" />
-              {images?.backdrops?.length ?? images?.posters?.length} PHOTOS
+              {images?.backdrops?.length || images?.posters?.length} PHOTOS
             </div>
           </Link>
         </div>

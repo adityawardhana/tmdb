@@ -1,0 +1,1573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render page movie detail with server components 1`] = `
+<div>
+  <section
+    class="grid grid-cols-8  p-2 md:p-8"
+  >
+    <div
+      class="col-span-8 sm:col-span-full flex justify-between items-center flex-wrap"
+    >
+      <div
+        class="flex flex-col"
+      >
+        <h1
+          class="text-3xl font-bold"
+        >
+          Joker: Folie à Deux
+        </h1>
+        <div
+          class="text-lightGray text-sm py-3"
+        >
+          <p
+            class="text-lightGray"
+          >
+            Original title: 
+            Joker: Folie à Deux
+          </p>
+          <div
+            class="flex gap-2"
+          >
+            <p>
+              (
+              2024
+              )
+            </p>
+             -
+            <p>
+              2h 18m
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-between w-full md:w-auto gap-8"
+      >
+        <div
+          class="flex flex-col justify-center items-center gap-2"
+        >
+          <div
+            class="text-neutral-400 text-sm"
+          >
+            Rating
+          </div>
+          <div
+            class="flex items-center gap-2 whitespace-nowrap"
+          >
+            <svg
+              class="text-secondary size-6"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"
+              />
+            </svg>
+            <div
+              class="flex gap-1"
+            >
+              <div
+                class="font-bold"
+              >
+                5.78
+              </div>
+              <div
+                class="text-neutral-400"
+              >
+                / 10
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center gap-2"
+        >
+          <div
+            class="text-neutral-400 text-sm"
+          >
+            Review
+          </div>
+          <div
+            class="flex items-center gap-2 whitespace-nowrap"
+          >
+            <svg
+              class="text-secondary size-6"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M431 320.6c0-4.4 1.2-8.6 3.3-12.2.6-1.1 1.4-2.1 2.1-3.1 17.4-26 27.6-57.1 27.6-90.3.3-92.2-77.5-167-173.7-167-83.9 0-153.9 57.1-170.3 132.9-2.4 11.1-3.7 22.4-3.7 34.2 0 92.3 74.8 169.1 171 169.1 15.3 0 35.9-4.6 47.2-7.7 11.3-3.1 22.5-7.2 25.4-8.3 2.9-1.1 6.1-1.7 9.3-1.7 3.6 0 7 .7 10.1 2l56.7 20.1s2.4 1 3.9 1c4.4 0 8-3.5 8-8 0-1-.5-2.7-.5-2.7L431 320.6z"
+              />
+              <path
+                d="M318.5 392.5c-3.6 1-8.2 2.1-13.2 3.2-10.5 2.2-23.9 4.5-34 4.5-96.2 0-171-76.8-171-169.1 0-6.6.7-15 1.5-21.4.6-4.3 1.3-8.6 2.3-12.8 1-4.5 2.2-9 3.5-13.4l-8 7.1C66.8 219.2 48 260 48 302.5c0 29.3 8.5 57.5 24.8 82 2.3 3.5 3.6 6.2 3.2 8-.4 1.8-11.9 62-11.9 62-.6 2.9.5 5.8 2.7 7.7 1.5 1.2 3.3 1.8 5.1 1.8 1 0 2-.2 2.9-.6l56.1-22.1c1.8-.7 3.7-1.1 5.7-1.1 0 0 2.4-.2 6.3 1.3 18.9 7.4 39.8 12 60.7 12 46.6 0 90.4-20.1 120.1-55.1 0 0 3.2-4.4 6.9-9.6-3.7 1.3-7.9 2.6-12.1 3.7z"
+              />
+            </svg>
+            <div
+              class="flex gap-1"
+            >
+              <div
+                class="font-bold"
+              >
+                526
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center gap-2"
+        >
+          <div
+            class="text-neutral-400 text-sm"
+          >
+            Popularity
+          </div>
+          <div
+            class="flex items-center gap-2 whitespace-nowrap"
+          >
+            <svg
+              class="text-secondary size-4"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M184 448h48c4.4 0 8-3.6 8-8V72c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v368c0 4.4 3.6 8 8 8zM88 448h48c4.4 0 8-3.6 8-8V296c0-4.4-3.6-8-8-8H88c-4.4 0-8 3.6-8 8v144c0 4.4 3.6 8 8 8zM280.1 448h47.8c4.5 0 8.1-3.6 8.1-8.1V232.1c0-4.5-3.6-8.1-8.1-8.1h-47.8c-4.5 0-8.1 3.6-8.1 8.1v207.8c0 4.5 3.6 8.1 8.1 8.1zM368 136.1v303.8c0 4.5 3.6 8.1 8.1 8.1h47.8c4.5 0 8.1-3.6 8.1-8.1V136.1c0-4.5-3.6-8.1-8.1-8.1h-47.8c-4.5 0-8.1 3.6-8.1 8.1z"
+              />
+            </svg>
+            <div
+              class="flex gap-1"
+            >
+              <div
+                class="font-bold"
+              >
+                1,164.723
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="p-2 md:p-8"
+  >
+    <div
+      class="grid grid-cols-8 lg:grid-cols-12"
+    >
+      <img
+        alt="Joker: Folie à Deux"
+        class="hidden sm:block sm:col-span-2 lg:col-span-3"
+        src="https://image.tmdb.org/t/p/original/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg"
+      />
+      <div
+        class="col-span-8 sm:col-span-6 lg:col-span-7 aspect-video sm:aspect-auto"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/2Ql3s_X7VPU"
+          title="New Trailer Online Now"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex lg:flex-col col-span-full lg:col-span-2 gap-2"
+      >
+        <a
+          class="w-1/2 lg:w-auto lg:h-1/2 bg-neutral-800 flex justify-center items-center hover:bg-gray-800"
+          href="#movie-videos"
+        >
+          <div
+            class="py-3 flex lg:flex-col items-center gap-4 text-sm lg:text-base"
+          >
+            <svg
+              class="text-secondary size-6"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12zM12 5.5v9l6-4.5z"
+              />
+            </svg>
+            <div>
+               
+              30
+               VIDEOS
+            </div>
+          </div>
+        </a>
+        <a
+          class="w-1/2 lg:w-auto lg:h-1/2 bg-neutral-800 flex justify-center items-center hover:bg-gray-800"
+          href="#movie-images"
+        >
+          <div
+            class="py-3 flex lg:flex-col items-center gap-4 text-sm lg:text-base"
+          >
+            <svg
+              class="text-secondary size-6"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 576 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M160 80H512c8.8 0 16 7.2 16 16V320c0 8.8-7.2 16-16 16H490.8L388.1 178.9c-4.4-6.8-12-10.9-20.1-10.9s-15.7 4.1-20.1 10.9l-52.2 79.8-12.4-16.9c-4.5-6.2-11.7-9.8-19.4-9.8s-14.8 3.6-19.4 9.8L175.6 336H160c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16zM96 96V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160c-35.3 0-64 28.7-64 64zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120zm208 24a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"
+              />
+            </svg>
+            69
+             PHOTOS
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    class="grid grid-cols-8  p-2 md:p-8"
+  >
+    <p
+      class="text-lg"
+    >
+      Genre
+    </p>
+    <div
+      class="col-span-full flex py-2 gap-2 max-sm:w-full max-sm:overflow-hidden max-sm:overflow-x-scroll"
+    >
+      <span
+        class="flex-shrink-0 text-neutral-400 border border-neutral-700 bg-neutral-900 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+      >
+        Drama
+      </span>
+      <span
+        class="flex-shrink-0 text-neutral-400 border border-neutral-700 bg-neutral-900 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+      >
+        Crime
+      </span>
+      <span
+        class="flex-shrink-0 text-neutral-400 border border-neutral-700 bg-neutral-900 focus:ring-4 focus:outline-none focus:ring-neutral-300 rounded-full text-base px-5 py-2.5 text-center text-white focus:ring-neutral-800"
+      >
+        Thriller
+      </span>
+    </div>
+  </section>
+  <section
+    class="p-2 md:p-8"
+  >
+    <div
+      class="col-span-full grid grid-cols-8 sm:grid-cols-12 "
+    >
+      <div
+        class="col-span-8 border-b border-neutral-500 pb-3"
+      >
+        While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.
+      </div>
+      <div
+        class="col-span-8 border-b border-neutral-500 py-3"
+      >
+        <div
+          class="text-white w-full grid grid-cols-2 gap-2"
+        >
+          <p
+            class="font-bold"
+          >
+            Director
+          </p>
+          <div>
+            <span
+              class="flex items-center gap-2"
+            >
+              <img
+                alt="Todd Phillips"
+                class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                src="https://image.tmdb.org/t/p/original/A6FPht87DiqXzp456WjakLi2AtP.jpg"
+              />
+              Todd Phillips
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-8 border-b border-neutral-500 py-3"
+      >
+        <div
+          class="text-white w-full grid grid-cols-2 gap-2"
+        >
+          <p
+            class="font-bold"
+          >
+            Writer
+          </p>
+          <div
+            class="flex gap-3"
+          >
+            <div
+              class="flex flex-col gap-2"
+            >
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Bob Kane"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/vuXwrlqaUydA4t5SFVdQkK9KsZL.jpg"
+                />
+                Bob Kane
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Bill Finger"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Bill Finger
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-8 border-b border-neutral-500 py-3"
+      >
+        <div
+          class="text-white w-full grid grid-cols-2 gap-2"
+        >
+          <p
+            class="font-bold"
+          >
+            Cast
+          </p>
+          <div
+            class="flex gap-3col-span-8"
+          >
+            <div
+              class="flex flex-col gap-2"
+            >
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Joaquin Phoenix"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/u38k3hQBDwNX0VA22aQceDp9Iyv.jpg"
+                />
+                Joaquin Phoenix
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Lady Gaga"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/74rEzBPmxwqplvfMsXy9i2tCc24.jpg"
+                />
+                Lady Gaga
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Brendan Gleeson"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/dTS2y7FLsnrskf0tPb8f9H7KAP3.jpg"
+                />
+                Brendan Gleeson
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Catherine Keener"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/n4CTwGszs6cwS1wJRlDQ5Mlh7Ex.jpg"
+                />
+                Catherine Keener
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Zazie Beetz"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/jBqpXGGS2QKNKKrDq6pUHYK6yXv.jpg"
+                />
+                Zazie Beetz
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Steve Coogan"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/tT7OXc2qA6hlREHXdwGLp0XihzA.jpg"
+                />
+                Steve Coogan
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Harry Lawtey"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/l2qFs3TntkZD0G3zFEd1o2DXSWX.jpg"
+                />
+                Harry Lawtey
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Leigh Gill"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/bn9h4ovCuMj01OybjIoTrakOL2z.jpg"
+                />
+                Leigh Gill
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Ken Leung"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/hpatUP6u74gkpDRmn9voNY9V43O.jpg"
+                />
+                Ken Leung
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Jacob Lofland"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/hlDVsEhgvNX5xnAcqX3HaBXAgNS.jpg"
+                />
+                Jacob Lofland
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Sharon Washington"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/uUTYgfcmJUfz3cm7cEqiXlHPRAv.jpg"
+                />
+                Sharon Washington
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Troy Fromin"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/6MYEY1bSu0A48vx6dfwXLT2OWy4.jpg"
+                />
+                Troy Fromin
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Bill Smitrovich"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/yzZUYnAdX0MMA8eZMTVsXufRCfU.jpg"
+                />
+                Bill Smitrovich
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="John Lacy"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/9v2fOfR5UccdFbOuhn7UYmf4cRE.jpg"
+                />
+                John Lacy
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Gattlin Griffith"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/esMHJA8lP8y60AqJZH9JJBMIRIz.jpg"
+                />
+                Gattlin Griffith
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Tim Dillon"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/qEAS7a0ZjJhiUysuinZ0aBQABvX.jpg"
+                />
+                Tim Dillon
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Mike Houston"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/slFvhF8uFXfnrquxVbcbx3lFSRz.jpg"
+                />
+                Mike Houston
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="G.L. McQueary"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/n9tjsEiZMYf2RKykhO0f0EwnCYE.jpg"
+                />
+                G.L. McQueary
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Jimmy Smagula"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/eJCPG4KqGQezTNdN4LLzFjHPHOz.jpg"
+                />
+                Jimmy Smagula
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Brian Donahue"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/ajWAfpzRuc9jI43kSWZjQ1s5mFf.jpg"
+                />
+                Brian Donahue
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Alfred Rubin Thompson"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/qhyDts6pX5U2Q4LHRowpd6UFZn9.jpg"
+                />
+                Alfred Rubin Thompson
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Robert Loftus"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Robert Loftus
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Carson Higgins"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/cMu3ITaS6Cen7arcxJCQV7orXOz.jpg"
+                />
+                Carson Higgins
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Ben van Diepen"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/sR6QWwiu7CzPafuhXmtLWnCRbc7.jpg"
+                />
+                Ben van Diepen
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Casey Burke"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/w5cmY7hRYruMvPNdhzQ18MhVHaa.jpg"
+                />
+                Casey Burke
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Connor Storrie"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Connor Storrie
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Gregg Daniel"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/7xdJpmeCUod0OEx5VlGpNuWQG7v.jpg"
+                />
+                Gregg Daniel
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Mac Brandt"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/u2zRIywRVcih7LsZIsybmbzwmJW.jpg"
+                />
+                Mac Brandt
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="George Carroll"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/dtPCKR8BWu5Q7CnNRdHWY5dB7Jt.jpg"
+                />
+                George Carroll
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Wayne Dehart"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Wayne Dehart
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Ajgie Kirkland"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/7s8WbuUjBq9reKYHlxnfXWpKs0d.jpg"
+                />
+                Ajgie Kirkland
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Terrance T.P. Polite"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Terrance T.P. Polite
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Jimmy Walker Jr."
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/ucTGwh5gTwU3063omYa6FXtSZkC.jpg"
+                />
+                Jimmy Walker Jr.
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Toney Wilson"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Toney Wilson
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="June Carryl"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/7p0lxKz4KGfUPc8r5q5j7N8vy5N.jpg"
+                />
+                June Carryl
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Don McManus"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/rGdpdQ0DDVDX4FlQzrdFGcOlRGB.jpg"
+                />
+                Don McManus
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Angela D. Watson"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/zVTEtQg5wv5tOwf6tECtnjvAHTQ.jpg"
+                />
+                Angela D. Watson
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Murphy Guyer"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/6axiNcYIZmaeRKyfCm3xBHC7KQL.jpg"
+                />
+                Murphy Guyer
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Hudson Oz"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/vpjvHMpOY1wStHDxhfxZugDylI2.jpg"
+                />
+                Hudson Oz
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Ray Lykins"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/9cJnf225TyU1uMPkgUemNgtxvgx.jpg"
+                />
+                Ray Lykins
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Will Ropp"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/u1CNEIr937s8GT6ThhYs6n5uq3V.jpg"
+                />
+                Will Ropp
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Ashton Moio"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/33quyMobSxu2HNFE4HHT5w5RTLW.jpg"
+                />
+                Ashton Moio
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Emilio Rojas"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Emilio Rojas
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Joe Spinney"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Joe Spinney
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Richard Busser"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/originalnull"
+                />
+                Richard Busser
+              </span>
+              <span
+                class="flex items-center gap-2"
+              >
+                <img
+                  alt="Frances Conroy"
+                  class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500 object-cover"
+                  src="https://image.tmdb.org/t/p/original/aJRQAkO24L6bH8qkkE5Iv1nA3gf.jpg"
+                />
+                Frances Conroy
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="grid grid-cols-8 p-2 md:p-8"
+    id="movie-images"
+  >
+    <p
+      class="text-lg"
+    >
+      Images
+    </p>
+    <div
+      class="col-span-full flex py-8 gap-2 w-full overflow-x-scroll no-scrollbar"
+    >
+      <img
+        alt="https://image.tmdb.org/t/p/original/reNf6GBzOe48l9WEnFOxXgW56Vg.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/reNf6GBzOe48l9WEnFOxXgW56Vg.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/dUcPZwMlzZdwau5IfXyD0b2jaLI.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/dUcPZwMlzZdwau5IfXyD0b2jaLI.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/jFWuufqtmNlf0JdIQCndycH6eCr.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/jFWuufqtmNlf0JdIQCndycH6eCr.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/rBXurWv9lwHhmaaROMu50s7HJqw.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/rBXurWv9lwHhmaaROMu50s7HJqw.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/iVKDrPHZZnrhZi7vdyokURATFbf.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/iVKDrPHZZnrhZi7vdyokURATFbf.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/l8jYbaqiIozjTObECmx0bNurUSf.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/l8jYbaqiIozjTObECmx0bNurUSf.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/fwJ3miBfUdTTLL87d5tosuvaBTL.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/fwJ3miBfUdTTLL87d5tosuvaBTL.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/czuYVuyFIXBMVXvl2JgKrGAvV2Q.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/czuYVuyFIXBMVXvl2JgKrGAvV2Q.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/vg2VOuJaGWrXmw6jQpDQVi4WFQY.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/vg2VOuJaGWrXmw6jQpDQVi4WFQY.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/1H0l07FGCx3e9G0zLBGiIfHk9Zc.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/1H0l07FGCx3e9G0zLBGiIfHk9Zc.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/iiuFfFpbSYLpVmPZOWai6g3koU7.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/iiuFfFpbSYLpVmPZOWai6g3koU7.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/oAadr06zrHUQVKdZdgdBojRssPq.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/oAadr06zrHUQVKdZdgdBojRssPq.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/h8LK13QA1hDufe8Yl9DTkHTxOLh.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/h8LK13QA1hDufe8Yl9DTkHTxOLh.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/mraxhuBdLzK4Ai46fwr7erji4je.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/mraxhuBdLzK4Ai46fwr7erji4je.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/xx0VTrtvoRptaY3unl61Ecft8MI.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/xx0VTrtvoRptaY3unl61Ecft8MI.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/uGmYqxh8flqkudioyFtD7IJSHxK.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/uGmYqxh8flqkudioyFtD7IJSHxK.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/pnhUBMJFaJzk9AO3h1akhzj3syu.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/pnhUBMJFaJzk9AO3h1akhzj3syu.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/AVWlQpVhpudyFsSh3OQIieHHYf.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/AVWlQpVhpudyFsSh3OQIieHHYf.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/aJAgBHTAqVmSWfOQloDsIxP5i4F.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/aJAgBHTAqVmSWfOQloDsIxP5i4F.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/pyzXrnIfvNYeGXjbLm0tYnwnkSx.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/pyzXrnIfvNYeGXjbLm0tYnwnkSx.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/giafQpoSGkDS87p7UB9tcJzeTw4.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/giafQpoSGkDS87p7UB9tcJzeTw4.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/kKoB5K5sd0gH6PKaETeHSwDEv2K.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/kKoB5K5sd0gH6PKaETeHSwDEv2K.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/bDuCriydxdLecnCqMjBEynxw9mR.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/bDuCriydxdLecnCqMjBEynxw9mR.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/zvi9VKd7lXO2qrJPwuhVJpittF6.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/zvi9VKd7lXO2qrJPwuhVJpittF6.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/5YEflUNAzHzat0p2bhN6qATyc3y.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/5YEflUNAzHzat0p2bhN6qATyc3y.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/evIIkNACTOOU8KObm0uhAxXk3i8.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/evIIkNACTOOU8KObm0uhAxXk3i8.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/g3Gq8jxHXA3QGDEgxU9Qa7iG9pk.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/g3Gq8jxHXA3QGDEgxU9Qa7iG9pk.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/lAkyGwHP042837WPgFmceoWFsPo.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/lAkyGwHP042837WPgFmceoWFsPo.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/ohaF4vVUW891Bynlx6UmhKckekK.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/ohaF4vVUW891Bynlx6UmhKckekK.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/iK8UEQ0Y9a4ObArWZEBRUHdDp7q.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/iK8UEQ0Y9a4ObArWZEBRUHdDp7q.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/MkdnM9vnQjb99MsF6HGnk7hzkw.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/MkdnM9vnQjb99MsF6HGnk7hzkw.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/ydYkhrEOaPhsx3omSkOxRc5PH5a.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/ydYkhrEOaPhsx3omSkOxRc5PH5a.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/ksAihhjqB9oRf6Wx73akOKNDHK5.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/ksAihhjqB9oRf6Wx73akOKNDHK5.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/rtD3fllzKxHKjFl0BrEcjezGVRD.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/rtD3fllzKxHKjFl0BrEcjezGVRD.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/7aDM1Rba57BeXr0jWRa3kBgEDUz.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/7aDM1Rba57BeXr0jWRa3kBgEDUz.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/5DD9CBuYZYAkxJyRJPPNSdQDNl0.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/5DD9CBuYZYAkxJyRJPPNSdQDNl0.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/dnIr3WRjksA13Q9e01YMEDv7nvZ.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/dnIr3WRjksA13Q9e01YMEDv7nvZ.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/vaMZ1HmcJs4mp1l9lbqB3gpebbZ.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/vaMZ1HmcJs4mp1l9lbqB3gpebbZ.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/rUX37eEup2XFk3dTAnNXYrmGnds.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/rUX37eEup2XFk3dTAnNXYrmGnds.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/k6io6oWz9oFc3bMV7MKpCbNPvj7.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/k6io6oWz9oFc3bMV7MKpCbNPvj7.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/kvOE0R1F7szlY0vbdpajxhOU67b.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/kvOE0R1F7szlY0vbdpajxhOU67b.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/qUXNxw7mESBbqM51VgDw4Cc98ov.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/qUXNxw7mESBbqM51VgDw4Cc98ov.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/gOSECViRSzJWne7dWgufq5B6as1.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/gOSECViRSzJWne7dWgufq5B6as1.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/6n9L9nw2fiDkSnE4y2gkQF0dbF9.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/6n9L9nw2fiDkSnE4y2gkQF0dbF9.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/9FggXbdDZw42beLwjvVOI7YZozu.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/9FggXbdDZw42beLwjvVOI7YZozu.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/fjeR9h677DSDKYNMRu4mQqblDfu.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/fjeR9h677DSDKYNMRu4mQqblDfu.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/96u9bdrfCYNqEuxtJGgtPdzZ63M.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/96u9bdrfCYNqEuxtJGgtPdzZ63M.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/z0JliWs8w5Q2VUyNYbj5VbWIlef.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/z0JliWs8w5Q2VUyNYbj5VbWIlef.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/vJLl9pJjvfwTnj1NVdEr13aT7R1.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/vJLl9pJjvfwTnj1NVdEr13aT7R1.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/iOVtgDptT7GxHwosQY8tZHRRMMQ.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/iOVtgDptT7GxHwosQY8tZHRRMMQ.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/7VbSSy5vrmFcWxBhQFpWVakxmKG.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/7VbSSy5vrmFcWxBhQFpWVakxmKG.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/kMJ1gkXnqmvlIeJ10JOYBEEGEGN.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/kMJ1gkXnqmvlIeJ10JOYBEEGEGN.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/dmG7H1FG1rgLfQA8gh6TRKt3K3I.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/dmG7H1FG1rgLfQA8gh6TRKt3K3I.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/q7xzMWY7ohCVgi5qFk0wWXtL1ld.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/q7xzMWY7ohCVgi5qFk0wWXtL1ld.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/2FkmWbKIcnGlijNkK8ouFZ6v4gh.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/2FkmWbKIcnGlijNkK8ouFZ6v4gh.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/8iEi00LvSKTwlLZPvjoO7HCHggK.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/8iEi00LvSKTwlLZPvjoO7HCHggK.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/pzCXpSStOWFaW4ByaDC4rLPcQp.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/pzCXpSStOWFaW4ByaDC4rLPcQp.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/wK4YJbldZIWETyE6i1QLbBZd4IY.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/wK4YJbldZIWETyE6i1QLbBZd4IY.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/76QHcf7rJGrHby9RkSFC78fI1la.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/76QHcf7rJGrHby9RkSFC78fI1la.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/1p1cgZmOCRvT05k541ymjeSB8CK.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/1p1cgZmOCRvT05k541ymjeSB8CK.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/v2BFAwyIRkIdB99n6qyvoW6vMNT.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/v2BFAwyIRkIdB99n6qyvoW6vMNT.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/33UjMxGTL5wnyjY0OsSbSLSX0zE.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/33UjMxGTL5wnyjY0OsSbSLSX0zE.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/uw4BEdKFtDRt4lTQuqKruAWYBBU.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/uw4BEdKFtDRt4lTQuqKruAWYBBU.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/staA7u2rvVZQPejTbh1pwwDiXUb.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/staA7u2rvVZQPejTbh1pwwDiXUb.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/zO2e4aAXg0MdMIIJ4kspnytdEWU.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/zO2e4aAXg0MdMIIJ4kspnytdEWU.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/RFj1JhRpPVO8MWMkALLQ2tF25q.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/RFj1JhRpPVO8MWMkALLQ2tF25q.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/lCAd5uq12PRrepcKJhG7ls5lAsI.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/lCAd5uq12PRrepcKJhG7ls5lAsI.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/5E9pKmJVXvWJ3pGYSMzz5duMId1.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/5E9pKmJVXvWJ3pGYSMzz5duMId1.jpg"
+      />
+      <img
+        alt="https://image.tmdb.org/t/p/original/buwkM0o0WwjSqpm7kHhqut8vG93.jpg"
+        class="flex-shrink-0 w-[200px] h-auto object-cover"
+        src="https://image.tmdb.org/t/p/original/buwkM0o0WwjSqpm7kHhqut8vG93.jpg"
+      />
+    </div>
+  </section>
+  <section
+    class="flex flex-col p-2 md:p-8"
+    id="movie-videos"
+  >
+    <p
+      class="text-lg"
+    >
+      Videos
+    </p>
+    <div
+      class="py-8 gap-4 w-full grid grid-cols-2 md:grid-cols-3"
+    >
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/EVu1V9K6KeY"
+          title="Official IMAX® Interview"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/E3Ay2QU3ZXI"
+          title="Lee (Harley) Quinzel"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/2_YvsFwTdBQ"
+          title="Shared Madness - Joker Featurette"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/wTLQbani47g"
+          title="Send in the clowns"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/8jUGY10R-PA"
+          title="Shared Madness - Lee"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/b0YfWILWH5U"
+          title="UK Premiere"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/f5mLjNHzo4g"
+          title="Shared Madness - Arthur Fleck"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/kkrh-XhNkoY"
+          title="Folie à Deux Featurette"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/Y6h4LahGWcI"
+          title="Knock knock…"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/ktIkoKl032w"
+          title="It’s time to finish what he started"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/ZnhfYyAiRok"
+          title="Official Clip"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/fiqqAI0e4Nc"
+          title="That's Life"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/V6AWayFmIoA"
+          title="Get Ready for Judgment Day."
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/gu3OX_kdIfQ"
+          title="Joaquin's Joker Featurette"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/wTzOF4ZY2yo"
+          title="Official Clip"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/39Kj08_Yjng"
+          title="Behind-the-Scenes Featurette | Filmed For IMAX®"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/UI56wR6Gd-c"
+          title="“My Name is Lee” Featurette"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/nHXlugkUtkU"
+          title="What The World Needs Now"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/8aDxPC9dVDQ"
+          title="Tickets Now On Sale"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/uG4DoPcBAhw"
+          title="The Music Within Featurette"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/HaFrUMO1ggM"
+          title="Who do you think they see?"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/2Ql3s_X7VPU"
+          title="New Trailer Online Now"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/mffO1wnxbG4"
+          title="Official Trailer Out Now"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/_OKAwz2MsJs"
+          title="Official Trailer"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/AnyVZKj6Sjo"
+          title="Drop it"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/HWyZyN3s_Ns"
+          title="Knock knock"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/bVhgRzreqFY"
+          title="Something’s changed"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/HKT7JlHtVng"
+          title="Welcome to the Joker & Harley Show"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/W2xZ41L1DRk"
+          title="Trailer out now"
+          width="100%"
+        />
+      </div>
+      <div
+        class="flex-shrink-0 w-full h-auto md:h-[300px]"
+      >
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          height="100%"
+          src="https://www.youtube.com/embed/xy8aJw1vYHo"
+          title="Official Teaser Trailer"
+          width="100%"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

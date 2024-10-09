@@ -11,7 +11,7 @@ const Rating: FC<Props> = ({ rating, review }) => {
     return <div />;
   }
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2" data-testid="rating">
       <div className="flex items-start">
         <IoIosStar className="w-4 h-4 text-yellow-300 me-1" />
         <p className="ms-2 text-sm font-bold text-gray-900 dark:text-white">

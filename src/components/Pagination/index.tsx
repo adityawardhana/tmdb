@@ -18,8 +18,16 @@ const Pagination: FC<Props> = ({ page: currentPage, totalPages, setPage }) => {
 
   if (totalPages > 0) {
     return (
-      <div className="flex justify-center overflow-x-auto gap-2 w-full no-scrollbar p-4 pb-24 ">
-        <button type="button" className={defaultCls} onClick={() => setPage(0)}>
+      <div
+        className="flex justify-center overflow-x-auto gap-2 w-full no-scrollbar p-4 pb-24"
+        data-testid="pagination"
+      >
+        <button
+          type="button"
+          className={defaultCls}
+          disabled={currentPage === 1 }
+          onClick={() => currentPage !== 1 && setPage(currentPage - 1)}
+        >
           <IoIosArrowBack />
         </button>
         {!pageArray.includes(1) && (
@@ -31,7 +39,7 @@ const Pagination: FC<Props> = ({ page: currentPage, totalPages, setPage }) => {
                 [activeCls]: currentPage === 1,
               })}
               onClick={() => {
-                setPage(0);
+                setPage(1);
               }}
             >
               1
@@ -81,7 +89,8 @@ const Pagination: FC<Props> = ({ page: currentPage, totalPages, setPage }) => {
         <button
           type="button"
           className={defaultCls}
-          onClick={() => setPage(totalPages)}
+          disabled={currentPage === totalPages}
+          onClick={() => currentPage !== totalPages && setPage(currentPage + 1)}
         >
           <IoIosArrowForward />
         </button>

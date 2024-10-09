@@ -10,9 +10,6 @@ type asyncFunctionProps = (params?: any) => Promise<any>;
 type useFetchOptionsProps = {
   initialData?: any;
   immediate?: boolean;
-  onSuccess?: (data: any) => void;
-  onError?: (data: any) => void;
-  onCompleted?: () => void;
 };
 type useFetchReturnProps = {
   fetch: (params?: any) => Promise<any> | void;
@@ -23,13 +20,7 @@ type useFetchReturnProps = {
 
 const useFetch = (
   asyncFunction: asyncFunctionProps,
-  {
-    immediate = true,
-    onSuccess,
-    onError,
-    onCompleted,
-    initialData,
-  }: useFetchOptionsProps = {}
+  { immediate = true, initialData }: useFetchOptionsProps = {}
 ): useFetchReturnProps => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(initialData || {});
@@ -48,18 +39,15 @@ const useFetch = (
       return asyncFunction(params)
         .then((data) => {
           setData(data);
-          onSuccess && onSuccess(data);
         })
         .catch((error) => {
           setError(error);
-          onError && onError(error);
         })
         .finally(() => {
           setLoading(false);
-          onCompleted && onCompleted();
         });
     },
-    [asyncFunction, onSuccess, onError, onCompleted]
+    [asyncFunction]
   );
   /**
    * effect if user want to run async function at first render
@@ -69,7 +57,7 @@ const useFetch = (
       setHasFetched(true);
       fetch();
     }
-  }, [fetch, immediate, hasFetched]);
+  }, [immediate, hasFetched]);
 
   useLayoutEffect(() => {
     setData(initialData);

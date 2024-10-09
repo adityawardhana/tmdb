@@ -10,7 +10,6 @@ export const getAllMovies = async ({
   return data;
 };
 
-
 export const getFilteredMovies = async ({
   page = 1,
   filter,
@@ -26,7 +25,6 @@ export const searchMovies = async (query: string) => {
   return data;
 };
 
-
 export const getMovies = ({ filter, page }: IFilterMoviesParams) => {
   if (filter) {
     return getFilteredMovies({
@@ -38,7 +36,7 @@ export const getMovies = ({ filter, page }: IFilterMoviesParams) => {
 };
 
 export const getMovieDetail = async (id: number) => {
-  const { data } = await request.get(`movie/${id}`);
+  const { data } = await request.get(`/movie/${id}`);
   return data;
 };
 
@@ -56,4 +54,3 @@ export const getMovieCredits = async (id: number) => {
   const { data } = await request.get(`/movie/${id}/credits`);
   return data;
 };
-
