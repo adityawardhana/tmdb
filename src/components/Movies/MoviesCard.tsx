@@ -12,7 +12,7 @@ const MoviesCard: FC<Props> = ({ data }) => {
   return (
     <a href={`/movie/${data.id}`} data-testid="moviesCard">
       <div className="flex max-w-sm w-full bg-transparent shadow-md rounded-xl overflow-hidden mx-auto">
-        <div className="overflow-hidden rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white">
+        <div className="overflow-hidden w-full rounded-xl relative transform hover:-translate-y-2 transition ease-in-out duration-500 shadow-lg hover:shadow-2xl text-white">
           <div className="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-neutral-900 via-gray-900 to-transparent"></div>
           <div
             className="relative cursor-pointer group z-10 px-4 pt-6 md:px-6 md:pt-10 pb-2 space-y-6 movie_info"

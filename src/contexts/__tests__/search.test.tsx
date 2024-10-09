@@ -16,27 +16,29 @@ jest.mock("@/services", () => ({
 
 jest.useFakeTimers();
 
-it("render search context with correctly return value", async () => {
-  (moviesServices.searchMovies as jest.Mock).mockResolvedValue(moviesMock);
-  const { result } = await waitFor(() =>
-    renderHook(() => useSearchContext(), {
-      wrapper: (props) => {
-        return (
-          <AppRouterContextProviderMock router={{}}>
-            <SearchProvider>{props.children}</SearchProvider>
-          </AppRouterContextProviderMock>
-        );
-      },
-    })
-  );
+describe("SearchContext", () => {
+  it("render search context with correctly return value", async () => {
+    (moviesServices.searchMovies as jest.Mock).mockResolvedValue(moviesMock);
+    const { result } = await waitFor(() =>
+      renderHook(() => useSearchContext(), {
+        wrapper: (props) => {
+          return (
+            <AppRouterContextProviderMock router={{}}>
+              <SearchProvider>{props.children}</SearchProvider>
+            </AppRouterContextProviderMock>
+          );
+        },
+      })
+    );
 
-  act(() => {
-    result.current.setQuery("search");
-  });
+    act(() => {
+      result.current.setQuery("search");
+    });
 
-  jest.runAllTimers();
-  const query = await waitFor(() => {
-    return result.current.query;
+    jest.runAllTimers();
+    const query = await waitFor(() => {
+      return result.current.query;
+    });
+    expect(query).toEqual(query);
   });
-  expect(query).toEqual(query);
 });

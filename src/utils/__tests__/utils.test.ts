@@ -1,5 +1,7 @@
 import { noop } from "../utils";
 
-it('should able to call noop', () => {
-  noop() // no expectation needed
+describe("no-operation(noop) function", () => {
+  it("should able to call noop", () => {
+    noop(); // no expectation needed
+  });
 });

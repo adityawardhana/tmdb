@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render Videos component when videos not found 1`] = `
+exports[`Videos render Videos component when videos not found 1`] = `
 <div>
   <p
     class="text-sm"

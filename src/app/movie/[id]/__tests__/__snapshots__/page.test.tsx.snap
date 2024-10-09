@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render page movie detail with server components 1`] = `
+exports[`Page Movie Detail render page movie detail with server components 1`] = `
 <div>
   <section
     class="grid grid-cols-8  p-2 md:p-8"

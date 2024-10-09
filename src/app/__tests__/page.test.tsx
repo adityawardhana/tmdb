@@ -18,19 +18,22 @@ jest.mock("@/services", () => ({
     getMovies: jest.fn(),
   },
 }));
-it("render page movie list with server components", async () => {
-  (moviesServices.getMovies as jest.Mock).mockResolvedValue(moviesMock);
-  const { container } = render(
-    await Page({ searchParams: { filter: "", page: 1 } }),
-    {
-      wrapper: (props) => {
-        return (
-          <AppRouterContextProviderMock router={{}}>
-            {props.children}
-          </AppRouterContextProviderMock>
-        );
-      },
-    }
-  );
-  expect(container).toMatchSnapshot();
+
+describe("Page Movies", () => {
+  it("render page movie list with server components", async () => {
+    (moviesServices.getMovies as jest.Mock).mockResolvedValue(moviesMock);
+    const { container } = render(
+      await Page({ searchParams: { filter: "", page: 1 } }),
+      {
+        wrapper: (props) => {
+          return (
+            <AppRouterContextProviderMock router={{}}>
+              {props.children}
+            </AppRouterContextProviderMock>
+          );
+        },
+      }
+    );
+    expect(container).toMatchSnapshot();
+  });
 });

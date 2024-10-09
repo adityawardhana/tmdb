@@ -9,13 +9,13 @@ const SearchResults = () => {
   }
 
   return (
-    <div className="bg-transparent absolute text-neutral-800 h-screen w-full z-50 flex justify-center items-start">
+    <div className="transparent absolute text-neutral-800 h-screen w-full z-50 flex justify-center items-start absolute md:px-8">
       {loading ? (
         <div className="w-full px-4 py-12 bg-neutral-900">
           <Loader />
         </div>
       ) : (
-        <div className="bg-neutral-900 text-white p-4 md:p-8 w-full grid grid-cols-2 md:grid-cols-5 gap-4 relative">
+        <div className="bg-neutral-800 text-white p-4 md:p-8 pb-24 w-full grid grid-cols-2 md:grid-cols-5 gap-4 relative overflow-y-scroll rounded-b-2xl">
           {results.map((item: any) => {
             return <MoviesCard key={item.id} data={item} />;
           })}
