@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+### Build IMDB clone using [TheMovieDB.org](https://developer.themoviedb.org/) ⚡️
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 📋 [Demo](#demo)
+- 🚀 [Features](#features)
+- 📦 [Installation & Usage](#installation--usage)
+- 💻 [Patterns](#patterns)
+- 📚 [Technologies](#technologies)
+- 📚 [Unit Test Coverage](#unit-test-coverage)
+
+## Demo
+
+This project deployed in
+
+- https://tmdb-chi-three.vercel.app/
+
+## Features
+
+- Movie list with filter
+  - Popular
+  - Now Playing
+  - Upcoming
+  - Top Rate
+- Movie Detail Page
+  - Information
+  - Banner
+  - Description
+  - Cast & Directors
+  - Images
+  - Videos
+- Search
+- Pagination
+- Movie Card
+
+## Installation & Usage
+
+To use this project, this is the very first step to install this project
+
+
+```sh
+# with Yarn
+$ yarn install
+
+# development
+$ yarn dev
+
+# deploy
+$ yarn build
+$ yarn start
+
+# test
+$ yarn test
+
+
+
+# with npm
+$ npm run install
+
+# development
+$ npm run dev
+
+# deploy
+$ npm run build
+$ npm run start
+
+# test
+$ npm run test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Patterns
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project mostly used [Compund Pattern](https://www.patterns.dev/react/compound-pattern/) and [Container Pattern](https://www.patterns.dev/react/presentational-container-pattern)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Why used this patterns?
+- Separated business logic and components logic
+- Used context for state management to make business logic
+- Small/atomic components only accept properties, not to much logic inside components
+- Standarized unit tests
+- etc
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- TypeScript
+- NextJS
+- React
+- React Testing Library
+- Jest
+- Tailwind
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Unit Test Coverage
+### 💯 🚀
+<img width="1470" alt="Screenshot 2024-10-09 at 7 30 18 PM" src="https://github.com/user-attachments/assets/979590e6-ea44-42fd-8786-01ad02edf321">
