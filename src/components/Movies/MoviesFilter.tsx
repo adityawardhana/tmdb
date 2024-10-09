@@ -36,7 +36,7 @@ const MoviesFilter = () => {
     onParamsChange({ filter: key, page: 1 });
   };
   return (
-    <div className="flex overflow-x-auto gap-2 w-full no-scrollbar p-4">
+    <div className="flex overflow-x-auto gap-2 w-full no-scrollbar py-4 px-4 md:px-8">
       {filters.map((item) => {
         return (
           <button

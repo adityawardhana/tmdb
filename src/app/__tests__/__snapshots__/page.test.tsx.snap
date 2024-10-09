@@ -6,7 +6,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
     class="flex flex-col gap-8 row-start-2 items-start"
   >
     <div
-      class="flex overflow-x-auto gap-2 w-full no-scrollbar p-4"
+      class="flex overflow-x-auto gap-2 w-full no-scrollbar py-4 px-4 md:px-8"
     >
       <button
         class="flex-shrink-0 text-rose-700 hover:text-white border border-rose-600 hover:bg-rose-700 focus:ring-4 focus:outline-none focus:ring-rose-300 rounded-full text-base px-5 py-2.5 text-center border-rose-500 text-rose-500 hover:text-white hover:bg-rose-500 bg-neutral-900 focus:ring-rose-800"
@@ -155,6 +155,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/fttoFfKikQMwIoV3UVvlCvBhbUw.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/fttoFfKikQMwIoV3UVvlCvBhbUw.jpg"
               />
@@ -271,6 +272,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/fDtkrO2OAF8LKQTdzYmu1Y7lCLB.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/fDtkrO2OAF8LKQTdzYmu1Y7lCLB.jpg"
               />
@@ -387,6 +389,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg"
               />
@@ -503,6 +506,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg"
               />
@@ -619,6 +623,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/vOX1Zng472PC2KnS0B9nRfM8aaZ.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/vOX1Zng472PC2KnS0B9nRfM8aaZ.jpg"
               />
@@ -735,6 +740,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg"
               />
@@ -851,6 +857,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
               />
@@ -967,6 +974,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/hgA5hN3NjNNSTXYOmAI6KNKOzbp.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/hgA5hN3NjNNSTXYOmAI6KNKOzbp.jpg"
               />
@@ -1083,6 +1091,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/kKgQzkUCnQmeTPkyIwHly2t6ZFI.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/kKgQzkUCnQmeTPkyIwHly2t6ZFI.jpg"
               />
@@ -1199,6 +1208,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/cSMdFWmajaX4oUMLx7HEDI84GkP.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/cSMdFWmajaX4oUMLx7HEDI84GkP.jpg"
               />
@@ -1315,6 +1325,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
               />
@@ -1431,6 +1442,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/6VeDn4oIeUK4XwjWGWMb6qvMImQ.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/6VeDn4oIeUK4XwjWGWMb6qvMImQ.jpg"
               />
@@ -1547,6 +1559,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/68jNkFi61MQjrJEqj2up5wZ4w5R.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/68jNkFi61MQjrJEqj2up5wZ4w5R.jpg"
               />
@@ -1663,6 +1676,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/izuzUb0sDokqp9o8utVfsrSJuy5.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/izuzUb0sDokqp9o8utVfsrSJuy5.jpg"
               />
@@ -1779,6 +1793,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/lRBT73EWsiQPuqK3YS3BnBW0Zwi.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/lRBT73EWsiQPuqK3YS3BnBW0Zwi.jpg"
               />
@@ -1895,6 +1910,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/qbkAqmmEIZfrCO8ZQAuIuVMlWoV.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/qbkAqmmEIZfrCO8ZQAuIuVMlWoV.jpg"
               />
@@ -2011,6 +2027,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/7NDHoebflLwL1CcgLJ9wZbbDrmV.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/7NDHoebflLwL1CcgLJ9wZbbDrmV.jpg"
               />
@@ -2127,6 +2144,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg"
               />
@@ -2243,6 +2261,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/rGS8SzheANVQicNba0GCE6w1XHb.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/rGS8SzheANVQicNba0GCE6w1XHb.jpg"
               />
@@ -2359,6 +2378,7 @@ exports[`Page Movies render page movie list with server components 1`] = `
                 </div>
               </div>
               <img
+                alt="https://image.tmdb.org/t/p/original/oyjEPno8omeDYVNqUZS2RiEpuRC.jpg"
                 class="absolute inset-0 transform w-full md:-translate-y-4 h-96 object-cover"
                 src="https://image.tmdb.org/t/p/original/oyjEPno8omeDYVNqUZS2RiEpuRC.jpg"
               />

@@ -11,7 +11,7 @@ const SearchResults = () => {
   return (
     <div className="transparent absolute text-neutral-800 h-screen w-full z-50 flex justify-center items-start absolute md:px-8">
       {loading ? (
-        <div className="w-full px-4 py-12 bg-neutral-900">
+        <div className="w-full px-4 py-12 bg-neutral-800">
           <Loader />
         </div>
       ) : (
